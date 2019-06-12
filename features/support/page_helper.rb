@@ -1,6 +1,6 @@
 Dir[File.join(File.dirname(__FILE__),"../pages/*_page.rb")].each {|file| require file }
 #Getting all the files ending in _pages.rb
-#Doing the require to all the pages to each one of them to instance the page object
+#Doing the requirement to all the pages to each one of them to instance the page object
 
 
 module Pages
@@ -8,4 +8,8 @@ module Pages
     def signup_page
         @signup_page ||= SignUpPage.new
     end
+
+    def home_page
+        @home_page ||= HomePage.new
+    end    
 end
