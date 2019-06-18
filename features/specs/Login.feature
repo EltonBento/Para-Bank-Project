@@ -43,4 +43,4 @@ Given I am at the home page
 And I have an user already registered
 When I fill the username and a wrong password in the customer login section
 And I click in the login button
-Then Then I should get 'The username and password could not be verified.' message
+Then I should get 'The username and password could not be verified.' message

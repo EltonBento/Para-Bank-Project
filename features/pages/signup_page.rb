@@ -75,7 +75,7 @@ class SignUpPage < SitePrism::Page
             zip_code.set '78741'
         end   
  
-        if field_name != 'SNN'
+        if field_name != 'SSN'
             ssn.set '461-13-2321'
         end
        
@@ -95,7 +95,7 @@ class SignUpPage < SitePrism::Page
     end   
  
     def generate_valid_user
-        first_name.set 'fake1'
+        first_name.set 'user01'
         last_name.set 'Smith'
         address.set '3063 Short Street'
         city.set 'Austin'
@@ -103,7 +103,7 @@ class SignUpPage < SitePrism::Page
         zip_code.set '78741'
         phone.set '523-826-3970'
         ssn.set '462-20-2331'
-        username.set 'fake_user11'
+        username.set 'user01'
         password.set '123456'
         confirm_password.set '123456'
     end   

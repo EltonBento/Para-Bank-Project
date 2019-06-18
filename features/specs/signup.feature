@@ -58,6 +58,7 @@ And I register
 Then I should get "Zip Code is required." message
 
 #9
+@tt
 Scenario: Sign up without filling SSN field
 Given I am at the sign up page
 When I sign up without filling the field "SSN"

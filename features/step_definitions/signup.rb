@@ -19,7 +19,7 @@ Then("I should get {string} success message") do |message|
 end
 
 Then("I should get {string} message") do |message|
-   page.has_text?(message)
+    expect(page.assert_text(message)).to eq true
 end
 
 When("I  register with all the field forms in blank") do

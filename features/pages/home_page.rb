@@ -7,13 +7,13 @@ class HomePage < SitePrism::Page
 
 
     def fill_all_form
-        username.set 'fake_user11'
+        username.set 'user01'
         password.set '123456'        
     end
 
     def fill_form_fields_but(field_name)
         if field_name != 'username' 
-            username.set 'fake_user11'
+            username.set 'user01'
         end
         
         if field_name != 'password'

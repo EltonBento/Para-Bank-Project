@@ -55,7 +55,3 @@ When("I fill the username and a wrong password in the customer login section") d
 end
 
   
-Then("Then I should get {string} message") do |message|
-     @text = find('#rightPanel > p')
-     expect(@text.text).to eql message
-end

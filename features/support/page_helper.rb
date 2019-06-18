@@ -11,5 +11,9 @@ module Pages
 
     def home_page
         @home_page ||= HomePage.new
-    end    
+    end
+    
+    def customer_lookup_page
+        @customer_lookup_page ||= CustomerLookupPage.new
+    end
 end
