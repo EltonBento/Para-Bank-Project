@@ -1,10 +1,9 @@
 Given("I have an user already registered") do
-    #if user wasn`t already created, create it
-    
+    #if user wasn`t already created, create it.    
         signup_page.load
         signup_page.generate_valid_user
         signup_page.submit_form
-        #clicking in logout if the user is not already created.
+        #clicking in logout if the user is already created.
         unless page.has_text?('This username already exists.')
             find('#leftPanel > ul > li:nth-child(8) > a').click
         end

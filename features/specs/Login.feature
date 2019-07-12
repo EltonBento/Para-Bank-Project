@@ -36,8 +36,6 @@ And I click in the login button
 Then I should get 'Please enter a username and password.' message
 
 #6
-
-@log
 Scenario: Login with wrong password
 Given I am at the home page
 And I have an user already registered

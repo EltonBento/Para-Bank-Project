@@ -16,4 +16,8 @@ module Pages
     def customer_lookup_page
         @customer_lookup_page ||= CustomerLookupPage.new
     end
+
+    def open_new_account_page
+        @open_new_account_page ||= OpenNewAccountPage.new
+    end    
 end

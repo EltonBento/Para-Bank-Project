@@ -10,5 +10,5 @@ World(Pages)
 Capybara.configure do |config|
    config.default_driver = :selenium
    config.app_host = 'https://parabank.parasoft.com/parabank/'
-   config.default_max_wait_time = 10
+   config.default_max_wait_time = 60
 end

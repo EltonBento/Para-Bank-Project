@@ -24,7 +24,6 @@ And I click the button to find my login info
 Then I should get 'The customer information provided could not be found.' message
 
 #4
-
 Scenario: Customer lookup with non existing user
 Given I am at the customer lookup page
 When I fill the form with the information of a non existing user
