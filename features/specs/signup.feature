@@ -22,6 +22,7 @@ When I sign up without filling the field "first name"
 And I register
 Then I should get "First name is required." message
 
+
 #4
 Scenario: Sign up without filling second name field
 Given I am at the sign up page

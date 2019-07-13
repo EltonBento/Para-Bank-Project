@@ -20,4 +20,8 @@ module Pages
     def open_new_account_page
         @open_new_account_page ||= OpenNewAccountPage.new
     end    
+
+    def transfer_funds_page
+        @transfer_funds_page ||= TransferFundsPage.new
+    end 
 end
