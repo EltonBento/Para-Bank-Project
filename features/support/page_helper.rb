@@ -24,4 +24,9 @@ module Pages
     def transfer_funds_page
         @transfer_funds_page ||= TransferFundsPage.new
     end 
+
+    def bill_payment_page
+        @bill_payment_page ||= BillPaymentPage.new
+    end
+    
 end
