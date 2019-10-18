@@ -3,9 +3,13 @@ require 'selenium-webdriver'
 require 'site_prism'
 #making it able to be read
 require_relative 'page_helper.rb'
+require_relative 'helper.rb'
 
 #making the module global
 World(Pages)
+World(Helper)
+
+
 
 Capybara.configure do |config|
    config.default_driver = :selenium

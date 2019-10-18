@@ -28,5 +28,14 @@ module Pages
     def bill_payment_page
         @bill_payment_page ||= BillPaymentPage.new
     end
+
+    def update_contact_info_page
+        @update_contact_info_page ||= UpdateContactInfoPage.new
+    end    
+    
+    def request_loan_page
+        @request_loan_page ||=  RequestLoanPage.new
+    end
+
     
 end
